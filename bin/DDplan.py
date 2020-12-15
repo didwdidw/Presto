@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 from __future__ import print_function
 from __future__ import absolute_import
+import sys
+sys.path.append("/home/didwdidw/.local/lib/python3.6/site-packages")
+sys.path.append("/home/didwdidw/.local/lib/python3.6/site-packages/future")
 from builtins import zip
 import numpy as np
 from presto.Pgplot import *

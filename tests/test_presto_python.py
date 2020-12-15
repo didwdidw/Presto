@@ -1,4 +1,8 @@
 from __future__ import print_function
+import sys
+sys.path.append("/home/didwdidw/.local/lib/python3.6/site-packages")
+sys.path.append("/home/didwdidw/.local/lib/python3.6/site-packages/numpy/core")
+sys.path.append("/home/didwdidw/.local/lib/python3.6/site-packages/numpy/")
 import numpy as np
 from presto import presto
 import os
